@@ -1,4 +1,6 @@
 import '../styling/header.css'
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaPaperPlane } from "react-icons/fa";
 
 function Header(){
     return(
@@ -9,7 +11,7 @@ function Header(){
         
         <div className="header-contact">
           <span className="header-contact-icon">
-            <i className="fa-solid fa-paper-plane"></i>
+            <FaPaperPlane />
           </span>
           <p className="header-contact-text">info@horseclub.com</p>
         </div>
@@ -22,7 +24,7 @@ function Header(){
         <div className="header-contact">
           <p className="header-contact-text">+254 546 879 12</p>
           <span className="header-contact-icon">
-            <i className="fa-solid fa-phone"></i>
+            <FaPhoneAlt />
           </span>
         </div>
         
